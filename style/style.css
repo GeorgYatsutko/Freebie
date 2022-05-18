@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul, li {
+  text-decoration: none;
+}
+
+header {
+  background-image: url(../img/6.png);
+  width: 100%;
+  height: 1500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+}
+header .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 30px;
+}
+header .nav .nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+header .nav .nav__menu h1 {
+  font-size: 16px;
+  line-height: 36px;
+  color: #2c2a28;
+  font-weight: 700;
+  font-family: "Lato";
+  margin-right: 30px;
+  -webkit-transition: 0.4s all;
+  transition: 0.4s all;
+}
+header .nav .nav__menu h1:hover {
+  color: #f3c6a6;
+  cursor: pointer;
+}
+header .nav .nav__links a {
+  display: inline-block;
+}
+header .nav .nav__links img {
+  margin-right: 20px;
+}
