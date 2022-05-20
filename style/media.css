@@ -1,0 +1,167 @@
+@media(max-width: 1155px){
+    header .hamburger-menu {
+        display: flex;
+        justify-content: end;
+    }
+    header .nav .nav__menu {
+        display: none;
+    }
+    header .nav .nav__links{
+        display: none;
+    }
+    header .nav {
+        padding-top: 10px;
+    }
+    header{
+        height: 700px;
+    }
+    header .img__filter {
+        height: 700px;
+    }
+    header .head__text h1{
+        padding-top: 150px;
+    }
+    header .head__dsccrptn p{
+        padding-top: 130px;
+    }
+}
+@media(max-width: 590px){
+    header .head__dsccrptn p{
+        padding-top: 40px;
+    }
+}
+@media(max-width: 350px){
+    header .head__dsccrptn p{
+        padding-top: 40px;
+    }
+}
+@media(max-width: 1300px){
+    .photo .photo__cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .photo .photo__cards .photo__cards2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 30px;
+        
+    }
+    .photo .photo__cards .photo__cards2 img{
+        height: 400px;
+    }
+    .photo .photo__cards .photo__cards2 .photo__spcl2 {
+        margin: 0 50px;
+    }
+    .photo .photo__card-big{
+            margin: 0 auto;
+        }
+    .photo .photo__card-big img {
+            width: 850px;
+        }
+    }
+
+@media(max-width: 895px){
+    .photo .photo__cards .photo__cards1 img {
+        width: 500px;
+      }
+      .photo .photo__cards .photo__cards2 img{
+        width: 220px;
+        height: 220px;
+    }
+    .photo .photo__cards .photo__cards2 .photo__spcl2 {
+        margin: 0 50px;
+     }  
+     .photo .photo__card-big{
+        margin: 0 auto;
+    }
+.photo .photo__card-big img {
+        width: 500px;
+    }
+}
+
+@media(max-width: 520px){
+    .photo .photo__cards .photo__cards1 img {
+        width: 300px;
+      }
+      .photo .photo__cards .photo__cards2 img{
+        width: 130px;
+        height: 130px;
+    }
+    .photo .photo__cards .photo__cards2 .photo__spcl2 {
+        margin: 0 40px;
+     }  
+     .photo .photo__card-big{
+        margin: 0 auto;
+    }
+.photo .photo__card-big img {
+        width: 300px;
+    }
+}
+@media(max-width: 1370px){
+    .cards .cards__section1, .cards .cards__section2, .cards .cards__section3{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .cards .cards__section3 .cards__text1{
+        margin: 50px auto;
+    }
+    .cards .cards__section1 .cards__text1{
+        margin: 50px auto;
+    }
+    .cards .cards__section2 .cards__text2{
+        margin: 50px auto;
+        order: 2;
+    }
+    .cards .cards__section2 .cards__photo2 img{
+        margin-left: 0;
+    }
+}
+@media(max-width: 720px){
+    .cards .cards__section2 .cards__photo2 img{
+        width: 400px;
+    }
+    .cards .cards__section1 .cards__photo1 img{
+        width: 400px;
+    }
+    .cards .cards__section3 .cards__photo1 img{
+        width: 400px;
+    }
+}
+@media(max-width: 490px){
+    .cards .cards__section2 .cards__photo2 img{
+        width: 300px;
+    }
+    .cards .cards__section1 .cards__photo1 img{
+        width: 300px;
+    }
+    .cards .cards__section3 .cards__photo1 img{
+        width: 300px;
+    }
+    .cards .cards__section1 .cards__text1 h2, 
+    .cards .cards__section2 .cards__text2 h2,
+    .cards .cards__section3 .cards__text1 h2
+    {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .cards .cards__section1 .cards__text1 p,
+    .cards .cards__section2 .cards__text2 p,
+    .cards .cards__section3 .cards__text1 p{
+        font-size: 13px;
+        width: 250px;
+        line-height: 15px;
+    }
+}
+@media (max-width: 410px) {
+    footer form input, footer form textarea{
+        width: 250px;
+        margin: 0 auto;
+    }
+    footer form button{
+        width: 250px;
+        margin: 30px auto;
+    } 
+}
